@@ -52,6 +52,6 @@ When code is pushed to the `main` branch, GitHub Actions automatically deploys t
 git init
 git add README.md
 git commit -m "Added README file"
-git branch -M main
+git branch -M master
 git remote add origin https://github.com/codereyamin/wub_web_technologies.git
-git push -u origin main
+git push -u origin master
